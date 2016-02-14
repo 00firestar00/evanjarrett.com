@@ -168,8 +168,6 @@
                     </div>
                 </div>
             </section>
-            <section class="section--footer mdl-color--white mdl-grid">
-            </section>
         </div>
 
         <?php include_once("include/projects.php") ?>
