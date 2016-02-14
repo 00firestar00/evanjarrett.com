@@ -59,7 +59,6 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-    background-color: white;
     height: 4px;
 }
 

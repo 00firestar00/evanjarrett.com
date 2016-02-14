@@ -70,7 +70,7 @@
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
             <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-            <a href="#projects" class="mdl-layout__tab">Projects</a>
+            <a href="#projects" id="projects" class="mdl-layout__tab">Projects</a>
         </div>
     </header>
     <main class="mdl-layout__content">
@@ -87,86 +87,19 @@
                         This is the latest iteration of my personal website with <a
                             href="https://www.google.com/design/spec/material-design/introduction.html">
                             Material Design</a>.
-                    </div>
-                </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid">
-                <div class="mdl-card mdl-cell mdl-cell--6-col mdl-shadow--2dp">
-                    <div class="mdl-card__supporting-text">
-                        <h4>Technology</h4>
-                        Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu.
-                        Nostrud in laboris
-                        labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur
-                        occaecat nisi laboris
-                        tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute
-                        dolore deserunt culpa
-                        consequat elit labore incididunt elit anim.
-                    </div>
-                </div>
-                <div class="mdl-card mdl-cell mdl-cell--6-col mdl-shadow--2dp">
-                    <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                        <h4 class="mdl-cell mdl-cell--12-col">Links</h4>
-                        <div
-                            class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
-                            <div class="section__circle-container__circle">
-                                <img src="images/github-circle.svg">
-                            </div>
-                        </div>
-                        <div
-                            class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                            <h5>Github</h5>
-                            Most of my newer projects are up on github, However I maintain the
-                            profile primarily for contributing to other open source projects.
-                            <div class="mdl-card__actions">
-                                <a href="#" class="mdl-button">Profile</a>
-                            </div>
-                        </div>
-                        <div
-                            class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
-                            <div class="section__circle-container__circle">
-                                <img src="images/bitbucket.svg">
-                            </div>
-                        </div>
-                        <div
-                            class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                            <h5>BitBucket</h5>
-                            Mostly contains older works from when I was in school, along with some
-                            private or public repos I have yet to port to Github
-                            <div class="mdl-card__actions">
-                                <a href="#" class="mdl-button">Profile</a>
-                            </div>
-                        </div>
-                        <div
-                            class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
-                            <div class="section__circle-container__circle">
-                                <img src="images/linkedin.svg">
-                            </div>
-                        </div>
-                        <div
-                            class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                            <h5>LinkedIn</h5>
-                            Honestly, this is probably more up to date than this website, even if
-                            its one of my least favorite places to visit.
-                            <div class="mdl-card__actions">
-                                <a href="#" class="mdl-button">Profile</a>
-                            </div>
-                        </div>
+                        Currently a work in progress, so excuse the Lorem Ipsum, and be sure to
+                        check back later in case things change.
                     </div>
                 </div>
             </section>
             <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
-                    <div class="mdl-card__supporting-text">
-                        <h4>Technology</h4>
-                        Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu.
-                        Nostrud in laboris
-                        labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur
-                        occaecat nisi laboris
-                        tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute
-                        dolore deserunt culpa
-                        consequat elit labore incididunt elit anim.
-                    </div>
-                </div>
+                <?php include_once("include/experience.php") ?>
+            </section>
+            <section class="section--center mdl-grid mdl-grid">
+                <?php
+                include_once("include/technologies.php");
+                include_once("include/links.php");
+                ?>
             </section>
         </div>
 
@@ -189,5 +122,10 @@
    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View
     Source</a>
 <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+<script>
+    function clickTab(tab) {
+        document.getElementById(tab).click();
+    }
+</script>
 </body>
 </html>
