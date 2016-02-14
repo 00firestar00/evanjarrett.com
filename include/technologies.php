@@ -26,10 +26,10 @@
                   </span>
                 </span>
             </li>
-            <li class="mdl-list__item mdl-list__item--two-line">
+            <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
                   <span>Operating Systems</span>
-                  <span class="mdl-list__item-sub-title">
+                  <span class="mdl-list__item-text-body">
                       Windows and Various Linux distros (Ubuntu, Mint, CentOS) and have worked with LAMP servers (and derivatives).
                   </span>
                 </span>
