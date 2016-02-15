@@ -12,14 +12,6 @@
             </li>
             <li class="mdl-list__item mdl-list__item--two-line">
                 <span class="mdl-list__item-primary-content">
-                  <span>Programming Languages</span>
-                  <span class="mdl-list__item-sub-title">
-                      Java, PHP/Hack, MySQL, Redis, Bash, C++
-                  </span>
-                </span>
-            </li>
-            <li class="mdl-list__item mdl-list__item--two-line">
-                <span class="mdl-list__item-primary-content">
                   <span>Programs and IDEs</span>
                   <span class="mdl-list__item-sub-title">
                       Android Studio, IntelliJ, PHPStorm, Atom, Sublime Text, Git

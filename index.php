@@ -26,20 +26,20 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <!--    <link rel="icon" sizes="192x192" href="images/android-desktop.png">-->
+    <!--    <link rel="icon" sizes="192x192" href="/images/android-desktop.png">-->
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <!--    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">-->
+    <!--    <link rel="apple-touch-icon-precomposed" href="/images/ios-desktop.png">-->
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage"
-          content="images/touch/ms-touch-icon-144x144-precomposed.png">
+          content="/images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
 
-    <!--    <link rel="shortcut icon" href="images/favicon.png">-->
+    <!--    <link rel="shortcut icon" href="/images/favicon.png">-->
 
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
@@ -78,7 +78,7 @@
             <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
                 <header
                     class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-                    <img src="images/profile.jpg"/>
+                    <img src="/images/profile.jpg"/>
                 </header>
                 <div
                     class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">

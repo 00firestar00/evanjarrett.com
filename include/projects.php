@@ -2,6 +2,24 @@
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
         <div class="mdl-card mdl-cell mdl-cell--12-col">
             <div class="mdl-card__supporting-text">
+                <div class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
+                    <div class="section__circle-container__circle">
+                        <img src="/images/alltime_launcher_new.png">
+                    </div>
+                </div>
+                <div
+                    class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                    <h5>AllTime</h5>
+                    You can see the website I made for it <a href="https://alltimeapp.com">here</a>. The app was
+                    designed and initially developed by my dad, however, I'm in the process of a ground-up rewrite to
+                    take advantage of the latest Android libraries and Material Design.
+
+                    //TODO: add screen shots in a modal.
+                </div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__supporting-text">
                 <h4>Features</h4>
                 Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui
                 nisi cupidatat.
