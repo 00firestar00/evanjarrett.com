@@ -3,7 +3,9 @@
         <div class="mdl-card mdl-cell mdl-cell--12-col">
             <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
                 <div class="project-icon-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                    <img class="project-icon" src="/images/alltime_launcher_new.png">
+                    <div class="project-icon">
+                        <img src="/images/alltime_launcher_new.png">
+                    </div>
                 </div>
                 <div
                     class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">

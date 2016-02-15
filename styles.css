@@ -233,11 +233,11 @@ html, body {
     margin: 8px 16px;
 }
 
-.mdl-demo section .project-icon-container {
+.mdl-demo section .project-icon-container > .project-icon {
     margin-right: 24px;
 }
 
-.mdl-demo section .project-icon-container > .project-icon {
+.mdl-demo section .project-icon-container > .project-icon img {
     width: 100%;
     height: 100%;
 }
