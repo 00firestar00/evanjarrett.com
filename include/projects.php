@@ -15,9 +15,36 @@
                     take advantage of the latest Android libraries and Material Design.
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                        //TODO: add screen shots in a modal.
-                    </a>
+                    <button id="show-dialog" type="button"
+                            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        Show Images
+                    </button>
+                    <dialog class="mdl-dialog">
+                        <h4 class="mdl-dialog__title">Allow data collection?</h4>
+
+                        <div class="mdl-dialog__content">
+                            <p>
+                                Allowing us to collect data will let us get you the information you want faster.
+
+                            <p>
+                        </div>
+                        <div class="mdl-dialog__actions">
+                            <button type="button" class="mdl-button close">Close</button>
+                        </div>
+                    </dialog>
+                    <script>
+                        var dialog = document.querySelector('dialog');
+                        var showDialogButton = document.querySelector('#show-dialog');
+                        if (!dialog.showModal) {
+                            dialogPolyfill.registerDialog(dialog);
+                        }
+                        showDialogButton.addEventListener('click', function () {
+                            dialog.showModal();
+                        });
+                        dialog.querySelector('.close').addEventListener('click', function () {
+                            dialog.close();
+                        });
+                    </script>
                 </div>
             </div>
         </div>
