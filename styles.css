@@ -46,8 +46,7 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__tab-bar {
-    padding: 0;
-    padding-left: 16px;
+    padding: 0 0 0 16px;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -63,8 +62,7 @@ html, body {
 }
 
 .mdl-demo main > .mdl-layout__tab-panel {
-    padding: 8px;
-    padding-top: 48px;
+    padding: 48px 8px 8px;
 }
 
 .mdl-demo .mdl-card {
@@ -84,7 +82,6 @@ html, body {
 .mdl-demo .mdl-card .mdl-card__supporting-text {
     margin: 40px;
     -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     padding: 0;
     color: inherit;
@@ -180,27 +177,22 @@ html, body {
     -ms-flex-pack: start;
     justify-content: flex-start;
     -webkit-flex-grow: 0;
-    -ms-flex-positive: 0;
     flex-grow: 0;
     -webkit-flex-shrink: 1;
-    -ms-flex-negative: 1;
     flex-shrink: 1;
 }
 
 .mdl-demo section .section__text {
     -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
     flex-shrink: 0;
     padding-top: 8px;
 }
 
 .mdl-demo section .section__text h5 {
     font-size: inherit;
-    margin: 0;
-    margin-bottom: 0.5em;
+    margin: 0 0 0.5em;
 }
 
 .mdl-demo section .section__text a {
@@ -245,8 +237,7 @@ html, body {
 .mdl-demo .toc {
     border-left: 4px solid #C1EEF4;
     margin: 24px;
-    padding: 0;
-    padding-left: 8px;
+    padding: 0 0 0 8px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;

@@ -2,7 +2,7 @@
     <div class="mdl-card__supporting-text">
         <h4>Technology</h4>
         <ul class="mdl-list">
-            <li class="mdl-list__item mdl-list__item--two-line">
+            <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
                   <span>Programming Languages</span>
                   <span class="mdl-list__item-sub-title">
@@ -10,7 +10,7 @@
                   </span>
                 </span>
             </li>
-            <li class="mdl-list__item mdl-list__item--two-line">
+            <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
                   <span>Programs and IDEs</span>
                   <span class="mdl-list__item-sub-title">
