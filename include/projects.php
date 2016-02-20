@@ -34,11 +34,6 @@
                     for windows, and scrot on linux. While I could just as easily upload to Imgur, I wanted the ability
                     to control where my images were uploaded, and be more flexible.
                 </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                        //TODO: add screen shots in a modal.
-                    </a>
-                </div>
             </div>
         </div>
     </section>
