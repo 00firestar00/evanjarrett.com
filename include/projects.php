@@ -20,14 +20,9 @@
                         Show Images
                     </button>
                     <dialog class="mdl-dialog">
-                        <h4 class="mdl-dialog__title">Allow data collection?</h4>
-
-                        <div class="mdl-dialog__content">
-                            <p>
-                                Allowing us to collect data will let us get you the information you want faster.
-
-                            <p>
-                        </div>
+                        <img src="/images/alltime1.png">
+                        <img src="/images/alltime2.png">
+                        <img src="/images/alltime3.png">
                         <div class="mdl-dialog__actions">
                             <button type="button" class="mdl-button close">Close</button>
                         </div>
