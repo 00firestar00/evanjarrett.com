@@ -4,26 +4,26 @@
         <ul class="mdl-list">
             <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
-                  <span>Programming Languages</span>
-                  <span class="mdl-list__item-sub-title">
-                      Java, PHP/Hack, MySQL, Redis, Bash, C++
-                  </span>
+                    <span>Programming Languages</span>
+                    <span class="mdl-list__item-text-body">
+                        Java, PHP/Hack, MySQL, Redis, Bash, C++
+                    </span>
                 </span>
             </li>
             <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
-                  <span>Programs and IDEs</span>
-                  <span class="mdl-list__item-sub-title">
-                      Android Studio, IntelliJ, PHPStorm, Atom, Sublime Text, Git
-                  </span>
+                    <span>Programs and IDEs</span>
+                    <span class="mdl-list__item-text-body">
+                        Android Studio, IntelliJ, PHPStorm, Atom, Sublime Text, Git
+                    </span>
                 </span>
             </li>
             <li class="mdl-list__item mdl-list__item--three-line">
                 <span class="mdl-list__item-primary-content">
-                  <span>Operating Systems</span>
-                  <span class="mdl-list__item-text-body">
-                      Windows and Various Linux distros (Ubuntu, Mint, CentOS) and have worked with LAMP servers (and derivatives).
-                  </span>
+                    <span>Operating Systems</span>
+                    <span class="mdl-list__item-text-body">
+                        Windows and Various Linux distros (Ubuntu, Mint, CentOS) and have worked with LAMP servers (and derivatives).
+                    </span>
                 </span>
             </li>
         </ul>

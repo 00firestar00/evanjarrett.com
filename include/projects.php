@@ -34,7 +34,7 @@
                 <div
                     class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                     <h4>TnyClick</h4>
-                    Image uploading and url shortening service. I originally wrote a full desktop client in java to
+                    Image uploading and url shortening service. I originally wrote a full desktop client in Java to
                     capture and upload images too, but ended up scraping that to use <a href="https://getsharex.com/">ShareX</a>
                     for windows, and scrot on linux. While I could just as easily upload to Imgur, I wanted the ability
                     to control where my images were uploaded, and be more flexible.
@@ -57,28 +57,20 @@
                     <ul class="mdl-list">
                         <li class="mdl-list__item mdl-list__item--three-line">
                             <span class="mdl-list__item-primary-content">
-                              <span>TnyClip</span>
-                              <span class="mdl-list__item-sub-title">
-                                  A cross-platform clipboard syncing service using Google's cloud messaging.
-                                  Uses an Android app and Chrome extension that listen for clipboard change events and
-                                  relays the text to other clients.
+                                <span>TnyClip</span>
+                                <span class="mdl-list__item-text-body">
+                                    A cross-platform clipboard syncing service using Google's cloud messaging.
+                                    Uses an Android app and Chrome extension that listen for clipboard change events and
+                                    relays the text to other clients.
                               </span>
                             </span>
                         </li>
                         <li class="mdl-list__item mdl-list__item--three-line">
                             <span class="mdl-list__item-primary-content">
-                              <span>TnyBot</span>
-                              <span class="mdl-list__item-sub-title">
-                                  IRC chat & twitch bot written in Java.
-                              </span>
-                            </span>
-                        </li>
-                        <li class="mdl-list__item mdl-list__item--three-line">
-                            <span class="mdl-list__item-primary-content">
-                              <span>Operating Systems</span>
-                              <span class="mdl-list__item-text-body">
-                                  Windows and Various Linux distros (Ubuntu, Mint, CentOS) and have worked with LAMP servers (and derivatives).
-                              </span>
+                                <span>TnyBot</span>
+                                <span class="mdl-list__item-text-body">
+                                    IRC chat & twitch bot written in Java.
+                                </span>
                             </span>
                         </li>
                     </ul>
