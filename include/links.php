@@ -4,7 +4,7 @@
         <div
             class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
             <div class="section__circle-container__circle">
-                <img src="images/github-circle.svg">
+                <img src="/images/github-circle.svg">
             </div>
         </div>
         <div
@@ -13,13 +13,13 @@
             Most of my newer projects are up on github, However I maintain the
             profile primarily for contributing to other open source projects.
             <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Profile</a>
+                <a href="https://github.com/00firestar00" class="mdl-button">Profile</a>
             </div>
         </div>
         <div
             class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
             <div class="section__circle-container__circle">
-                <img src="images/bitbucket.svg">
+                <img src="/images/bitbucket.svg">
             </div>
         </div>
         <div
@@ -28,13 +28,13 @@
             Mostly contains older works from when I was in school, along with some
             private or public repos I have yet to port to Github
             <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Profile</a>
+                <a href="https://bitbucket.org/00firestar00/" class="mdl-button">Profile</a>
             </div>
         </div>
         <div
             class="section__circle-container mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
             <div class="section__circle-container__circle">
-                <img src="images/linkedin.svg">
+                <img src="/images/linkedin.svg">
             </div>
         </div>
         <div
@@ -43,7 +43,7 @@
             Honestly, this is probably more up to date than this website, even if
             its one of my least favorite places to visit.
             <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Profile</a>
+                <a href="https://www.linkedin.com/in/evanjarrett" class="mdl-button">Profile</a>
             </div>
         </div>
     </div>
