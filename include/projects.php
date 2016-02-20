@@ -24,7 +24,7 @@
                         <img src="/images/alltime2.png">
                         <img src="/images/alltime3.png">
                         <div class="mdl-dialog__actions">
-                            <button type="button" class="mdl-button close">Close</button>
+                            <button type="button" class="mdl-button close mdl-dialog__actions--full-width">Close</button>
                         </div>
                     </dialog>
                     <script>

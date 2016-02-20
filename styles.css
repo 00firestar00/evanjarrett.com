@@ -268,5 +268,6 @@ html, body {
 }
 
 .mdl-demo .mdl-dialog img {
-    width: 100%;
+    width: 30%;
+    padding: 8px;
 }
