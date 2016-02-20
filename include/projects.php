@@ -26,15 +26,10 @@
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
         <div class="mdl-card mdl-cell mdl-cell--12-col">
             <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <div class="project-icon-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                    <div class="project-icon">
-                        <!--<img src="/images/alltime_launcher_new.png">-->
-                    </div>
-                </div>
                 <div
                     class="section__text mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
                     <h4>TnyClick</h4>
-                    Image uploading and url shortening service. I originally wrote a full desktop client in Java to
+                    Image & text uploading service. I originally wrote a full desktop client in Java to
                     capture and upload images too, but ended up scraping that to use <a href="https://getsharex.com/">ShareX</a>
                     for windows, and scrot on linux. While I could just as easily upload to Imgur, I wanted the ability
                     to control where my images were uploaded, and be more flexible.
@@ -74,11 +69,6 @@
                             </span>
                         </li>
                     </ul>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                        //TODO: add screen shots in a modal.
-                    </a>
                 </div>
             </div>
         </div>
