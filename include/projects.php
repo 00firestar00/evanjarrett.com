@@ -12,7 +12,10 @@
                     <h4>AllTime</h4>
                     You can see the website I made for it <a href="https://alltimeapp.com">here</a>. The app was
                     designed and initially developed by my dad, however, I'm in the process of a ground-up rewrite to
-                    take advantage of the latest Android libraries and Material Design.
+                    take advantage of the latest Android libraries and Material Design. Some images of the new design
+                    are linked below, but the current version of the app canb be found on the
+                    <a href="https://play.google.com/store/apps/developer?id=Jarrett+Software+Solutions">Google Play
+                        Store</a>.
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
                     <button id="show-dialog" type="button"
@@ -23,8 +26,10 @@
                         <img src="/images/alltime1.png">
                         <img src="/images/alltime2.png">
                         <img src="/images/alltime3.png">
+
                         <div class="mdl-dialog__actions">
-                            <button type="button" class="mdl-button close mdl-dialog__actions--full-width">Close</button>
+                            <button type="button" class="mdl-button close mdl-dialog__actions--full-width">Close
+                            </button>
                         </div>
                     </dialog>
                     <script>
